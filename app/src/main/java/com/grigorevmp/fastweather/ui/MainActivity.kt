@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AndroidThreeTen.init(application);
+        AndroidThreeTen.init(application)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
