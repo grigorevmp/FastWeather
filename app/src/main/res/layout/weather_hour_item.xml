@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clHourlyWeatherItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvHourItemMainCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/small_corner_radius"
+        app:cardElevation="@dimen/small_card_elevation"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/extra_small_margin"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/medium_margin"
+                android:backgroundTint="@color/grey"
+                app:cardCornerRadius="@dimen/hour_icon_corner_radius"
+                app:cardElevation="0dp">
+
+                <ImageView
+                    android:id="@+id/ivHourIcon"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
+                    android:padding="@dimen/extra_small_margin"
+                    android:contentDescription="@string/current_temperature_symbol"
+                    tools:src="@drawable/ic_sunny" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvHourTemperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/extra_small_margin"
+                tools:text="@string/current_temp" />
+
+            <TextView
+                android:id="@+id/tvHourTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/extra_small_margin"
+                tools:text="@string/time" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/extra_small_margin"
+                android:orientation="horizontal"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/imWaterDrop"
+                    android:layout_width="@dimen/icon_size_small"
+                    android:layout_height="@dimen/icon_size_small"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_water_drop"
+                    android:contentDescription="@string/rain_temperature_symbol"
+                    tools:background="@drawable/ic_baseline_water_drop" />
+
+                <TextView
+                    android:id="@+id/tvHourWeather"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/extra_small_margin"
+                    android:layout_gravity="center"
+                    tools:text="@string/test_percentage" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

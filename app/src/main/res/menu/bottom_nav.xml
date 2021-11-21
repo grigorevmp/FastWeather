@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/current_forecast"
+        android:icon="@drawable/ic_outline_view_week"
+        android:title="@string/today" />
+
+    <item
+        android:id="@+id/future_fragment"
+        android:icon="@drawable/ic_outline_today"
+        android:title="@string/week" />
+
+    <item
+        android:id="@+id/settings_fragment"
+        android:icon="@drawable/ic_outline_settings"
+        android:title="@string/settings" />
+</menu>

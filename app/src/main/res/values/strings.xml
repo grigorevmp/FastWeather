@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FastWeather</string>
+    <string name="latitude_value">Latitude</string>
+    <string name="longitude_value">Longitude</string>
+    <string name="settings">Settings</string>
+    <string name="week">Week</string>
+    <string name="today">Today</string>
+    <string name="current_temperature_symbol">Current temperature symbol</string>
+    <string name="rain_temperature_symbol">Rainy temperature symbol</string>
+    <string name="test_city">Test city</string>
+    <string name="sunny_today">Sunny today</string>
+    <string name="feels_like">Feels like 3.2°C</string>
+    <string name="current_temp">5.0°C</string>
+    <string name="test_date">20–11–2021</string>
+    <string name="just_sunny_weather">Just sunny weather</string>
+    <string name="temperature_information">Temperature information</string>
+    <string name="clouds_info">Clouds info</string>
+    <string name="wind_info">Wind info</string>
+    <string name="time">15:00 AM</string>
+    <string name="test_percentage">42%</string>
+    <string name="theme_preferences_key">PREFERENCE_KEY</string>
+    <string name="weekly_forecast">Weekly Forecast</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="clouds">Clouds</string>
+
+    <!-- Settings Fragment -->
+
+    <string name="current_location_desc">Allow app to use your location</string>
+    <string name="current_location_title">Use device location</string>
+    <string name="any_location_desc">Set the city</string>
+    <string name="any_location_title">Location</string>
+    <string name="unit_title">Unit System</string>
+    <string name="ask_for_a_permission">Ask for a permission</string>
+    <string name="please_ask_a_permission_and_pull_to_update">Please ask a permission and pull to update</string>
+</resources>

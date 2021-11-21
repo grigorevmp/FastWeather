@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="navBarIconColor" format="reference|color" />
+    <attr name="navBarIconColorNotChecked" format="reference|color" />
+    <attr name="backgroundViolet" format="reference|color" />
+    <attr name="textSettings" format="reference|color" />
+    <attr name="navBarIconIndicator" format="reference|color" />
+</resources>

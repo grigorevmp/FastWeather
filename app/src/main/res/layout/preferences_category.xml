@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@android:id/title"
+    android:textColor="?attr/textSettings"
+    android:paddingStart="@dimen/extra_margin"
+    android:paddingEnd="@dimen/extra_margin"
+    android:paddingTop="@dimen/medium_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="@dimen/settings_header_size"
+    android:textStyle="bold"
+    android:textAllCaps="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

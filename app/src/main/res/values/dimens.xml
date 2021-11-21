@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Current Forecast Fragment -->
+
+    <dimen name="between_margin">5dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="extra_small_margin">5dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="base_corner_radius">20dp</dimen>
+    <dimen name="hour_icon_corner_radius">27dp</dimen>
+    <dimen name="day_icon_corner_radius">36dp</dimen>
+    <dimen name="main_icon_corner_radius">30dp</dimen>
+    <dimen name="small_corner_radius">10dp</dimen>
+    <dimen name="small_card_elevation">5dp</dimen>
+    <dimen name="base_card_elevation">10dp</dimen>
+    <dimen name="extra_text_size">50sp</dimen>
+    <dimen name="medium_margin">20dp</dimen>
+    <dimen name="extra_margin">40dp</dimen>
+    <dimen name="bottom_margin">90dp</dimen>
+    <dimen name="weather_icon_size">128dp</dimen>
+    <dimen name="header_text_size">25sp</dimen>
+    <dimen name="standard_text_size">15sp</dimen>
+    <dimen name="icon_size_small">18dp</dimen>
+    <dimen name="header_margin">40dp</dimen>
+    <dimen name="settings_header_size">16sp</dimen>
+
+</resources>

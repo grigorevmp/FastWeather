@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/current_forecast"
+    android:id="@+id/navigation_graph">
+    <fragment
+        android:id="@+id/current_forecast"
+        android:name="com.grigorevmp.fastweather.ui.current_forecast.CurrentFragment"
+        tools:layout="@layout/navigation_current_forecast_fragment">
+        <action
+            android:id="@+id/action_current_forecast_to_future_fragment"
+            app:destination="@id/future_fragment"
+            app:popUpTo="@id/future_fragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_current_forecast_to_settings_fragment"
+            app:destination="@id/settings_fragment"
+            app:popUpTo="@id/settings_fragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="com.grigorevmp.fastweather.ui.settings.SettingsFragment"
+        tools:layout="@layout/navigation_settings_fragment" />
+
+    <fragment
+        android:id="@+id/future_fragment"
+        android:name="com.grigorevmp.fastweather.ui.future_forecast.FutureFragment"
+        tools:layout="@layout/navigation_future_forecast_fragment" />
+
+</navigation>

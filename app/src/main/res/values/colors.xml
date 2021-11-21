@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#D1D1D1</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Minor activity colors -->
+
+    <color name="minor_color_light">#F3FCFF</color>
+    <color name="minor_color_light_dark_theme">#444343</color>
+    <color name="minor_color">#E7F8FF</color>
+    <color name="minor_color_dark_theme">#262626</color>
+
+    <!-- Navigation Indicator -->
+
+    <color name="nav_indicator_light">#C3E7FF</color>
+    <color name="nav_indicator_dark">#004A77</color>
+
+    <!-- Color for nav bar -->
+
+    <color name="dark_nav_icon_selected">#000000</color>
+    <color name="dark_nav_icon_not_selected">#BF000000</color>
+    <color name="light_nav_icon_selected">#FFFFFF</color>
+    <color name="light_nav_icon_not_selected">#BFFFFFFF</color>
+    
+    <!-- Text color -->
+
+    <color name="text_settings_dark">#C3E7FF</color>
+    <color name="text_settings_light">#004A77</color>
+</resources>
