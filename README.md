@@ -1,0 +1,2 @@
+# FastWeather
+Simple weather client
