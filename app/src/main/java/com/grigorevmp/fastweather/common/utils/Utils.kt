@@ -37,7 +37,6 @@ object Utils {
     }
 
     fun getDateFromUTC(time: Int): String {
-
         val cal = Calendar.getInstance()
         val tz = cal.timeZone
         val date = Date(time.toLong() * 1000)
@@ -48,7 +47,6 @@ object Utils {
 
     @SuppressLint("SimpleDateFormat")
     fun getTimeFromUTC(time: Int): String {
-
         val cal = Calendar.getInstance()
         val tz = cal.timeZone
         val date = Date(time.toLong() * 1000)

@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
             if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 bindLocationManager()
             } else
-                Utils.makeToast(this, "Please, set location manually in settings")
+                Utils.makeToast(this, "Please, set location in your settings")
         }
     }
 
